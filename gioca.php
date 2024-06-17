@@ -1,4 +1,7 @@
 <?php
+
+// in questo programma viene stampato un form in cui l'utente può effetturare la scelta
+// per la giocata
 session_start();
 if (isset($_SESSION["nome"], $_SESSION["credito"])) {
     $nome = $_SESSION["nome"];
